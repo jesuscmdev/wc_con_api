@@ -20,6 +20,8 @@ Cambia el nombre del archivo `env.example` por .env y agrega ahí tus credencial
 
 ## Uso
 
+En el archivo index.php está un ejemplo para actualizar el status de un pedido.
+
 Puedes apoyarte de la API de woocommerce para lo que requieras
 
 [RestAPI]('https://woocommerce.github.io/woocommerce-rest-api-docs/')
