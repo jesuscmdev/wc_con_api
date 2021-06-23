@@ -7,9 +7,9 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 $woocommerce = new Client(
-    'https://cactusdevs.com/store/', // Dominio
-    $_ENV['WC_KEY_ADOBES'], // Key woocommerce desde env
-    $_ENV['WC_SECRET_ADOBES'], // Secret woocommerce desde env
+    $_ENV['DOMAIN'], // Dominio
+    $_ENV['WC_KEY'], // Key woocommerce desde env
+    $_ENV['WC_SECRET'], // Secret woocommerce desde env
     [
         'wp_api' => true,
         'version' => 'wc/v3',
